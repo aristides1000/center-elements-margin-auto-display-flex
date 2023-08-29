@@ -2,7 +2,7 @@
   background-color: blue;
 }
 
-p {
+.child-magin-auto {
   margin: 0 auto;
   background-color: red;
   width: fit-content;
@@ -46,3 +46,42 @@ p {
   box-sizing: border-box;
   width: 200px;
 }
+
+.display-flex-without-space {
+  display: flex;
+}
+
+h3 {
+  margin: 2px;
+}
+
+.element-1 {
+  border: solid 3px green;
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 0;
+}
+
+.element-2 {
+  border: solid 3px violet;
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 0;
+}
+
+.back {
+  border: solid 5px purple;
+  padding: 20px 0;
+  width: 500px;
+}
+
+.front {
+  border: solid 5px orange;
+  margin: -37px 0 0 4.667px;
+  box-sizing: border-box;
+  width: 500px;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
