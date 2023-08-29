@@ -1,0 +1,48 @@
+.parent-magin-auto {
+  background-color: blue;
+}
+
+p {
+  margin: 0 auto;
+  background-color: red;
+  width: fit-content;
+}
+
+/* div {
+  display: flex;
+  background-color: blue;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  background-color: red;
+} */
+
+.display-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent {
+  border: solid 5px red;
+  width: 200px;
+}
+
+.child {
+  border: solid 5px blue;
+  box-sizing: content-box;
+  width: 200px;
+}
+
+.parent2 {
+  border: solid 5px red;
+  width: 200px;
+}
+
+.child2 {
+  border: solid 5px blue;
+  box-sizing: border-box;
+  width: 200px;
+}
